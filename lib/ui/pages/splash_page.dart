@@ -43,11 +43,11 @@ class SplashPage extends HookWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Image.asset(
-                //   'assets/icons/truck.gif',
-                //   height: 100,
-                //   width: 120,
-                // ),
+                Image.asset(
+                  'assets/icons/truck.gif',
+                  height: 100,
+                  width: 120,
+                ),
                 const SizedBox(height: 24),
                 state is RitaseLoading
                     ? SizedBox(
